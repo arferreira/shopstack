@@ -1,0 +1,8 @@
+#!/bin/bash
+
+alias python='python3'
+alias pip='pip3'
+alias m='python manage.py'
+alias r='python manage.py runserver 0.0.0.0:8000'
+
+export SECRET_KEY='(tfxw25_8jrdnx=ed$ne!zcuqnk0351e-8f(neg=i62#y%0gl$'

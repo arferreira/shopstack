@@ -1,0 +1,3 @@
+-r base.txt                    # Includes the base.txt requirements file.
+
+django-debug-toolbar==1.5      # Add 'debug_toolbar' to INSTALLED_APPS.

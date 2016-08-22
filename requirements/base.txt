@@ -1,0 +1,8 @@
+Django==1.10
+django-autoslug==1.9.3         # Add 'autoslug' to INSTALLED_APPS.
+django-hijack==2.1.2           # Add 'hijack' to INSTALLED_APPS.
+django-import-export==0.4.5    # Add 'import_export' to INSTALLED_APPS.
+django-money==0.9.1            # Add 'djmoney' to INSTALLED_APPS.
+django-pure-pagination==0.3.0  # Add 'pure_pagination' to INSTALLED_APPS.
+django-widget-tweaks==1.4.1    # Add ‘widget_tweaks’ to INSTALLED_APPS.
+psycopg2==2.6.2
