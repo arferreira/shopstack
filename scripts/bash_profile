@@ -1,8 +1,6 @@
 #!/bin/bash
 
-alias python='python3'
-alias pip='pip3'
-alias m='python manage.py'
-alias r='python manage.py runserver 0.0.0.0:8000'
+alias m='python3 manage.py'
+alias r='python3 manage.py runserver 0.0.0.0:8000'
 
-export SECRET_KEY='(tfxw25_8jrdnx=ed$ne!zcuqnk0351e-8f(neg=i62#y%0gl$'
+# Generate your own key with secret_key_gen.py script

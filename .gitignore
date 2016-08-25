@@ -91,3 +91,4 @@ ENV/
 
 # Misc
 .DS_Store
+.vagrant
