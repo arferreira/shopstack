@@ -2,9 +2,9 @@
 
 echo "Bootstrapping postgres database..."
 
-DB_NAME="myproject"
-DB_USER="myproject"
-USER_PSWD="myproject"
+DB_NAME="shopstack"
+DB_USER="shopstack"
+USER_PSWD="shopstack"
 
 sudo -u postgres psql -c "DROP DATABASE IF EXISTS $DB_NAME;"
 

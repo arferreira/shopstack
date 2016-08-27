@@ -52,10 +52,17 @@ THIRD_PARTY_APPS = (
     'pure_pagination',
 )
 
-LOCAL_APPS = ()
+LOCAL_APPS = (
+    'user',
+)
 
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+
+
+# Our custom user model
+AUTH_USER_MODEL = 'user.User'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -94,9 +101,9 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
-        'USER': 'myproject',
-        'PASSWORD': 'myproject',
+        'NAME': 'shopstack',
+        'USER': 'shopstack',
+        'PASSWORD': 'shopstack',
         'HOST': 'localhost',
         'PORT': '',
     }
