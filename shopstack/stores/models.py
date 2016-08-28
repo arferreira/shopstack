@@ -1,6 +1,6 @@
 from django.db import models
 
-from user.models import User
+from users.models import User
 
 
 class Store(models.Model):
@@ -9,5 +9,5 @@ class Store(models.Model):
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     owner = models.OneToOneField(User)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name

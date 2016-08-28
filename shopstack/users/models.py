@@ -69,7 +69,7 @@ class Address(models.Model):
     shipping_address = models.BooleanField(default=True)
     billing_address = models.BooleanField(default=False)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.place
 
 
@@ -83,5 +83,5 @@ class PaymentMethod(models.Model):
     )
     name = models.CharField(max_length=50)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name

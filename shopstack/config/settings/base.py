@@ -53,7 +53,10 @@ THIRD_PARTY_APPS = (
 )
 
 LOCAL_APPS = (
-    'user',
+    'users',
+    'stores',
+    'products',
+    'orders',
 )
 
 
@@ -61,7 +64,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 
 # Our custom user model
-AUTH_USER_MODEL = 'user.User'
+AUTH_USER_MODEL = 'users.User'
 
 
 MIDDLEWARE = [

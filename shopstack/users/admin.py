@@ -5,7 +5,7 @@ from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from django.contrib.auth.models import Group
 from django.utils.translation import ugettext_lazy as _
 
-from .models import User
+from .models import User, Address, PaymentMethod
 
 
 class UserCreationForm(forms.ModelForm):
@@ -118,3 +118,5 @@ class UserAdmin(BaseUserAdmin):
 
 admin.site.register(User, UserAdmin)
 admin.site.unregister(Group)
+admin.site.register(Address)
+admin.site.register(PaymentMethod)
